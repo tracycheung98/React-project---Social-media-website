@@ -1,0 +1,71 @@
+.social{
+    font-family: 'Praise', cursive;
+}
+
+.mediaApp{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.background{
+    background-image: url(../Global/img/background.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: auto 1fr 6fr auto;
+}
+
+.header{
+    text-align: center;
+    color: #2E2E2E;
+    font-size: x-large;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.body{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 75vh;
+}
+
+.footer{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/* 
+comments FFEDED
+buttons FFC1C1 
+dark grey 2E2E2E
+*/

@@ -1,0 +1,69 @@
+.register{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.register::-webkit-scrollbar {
+    display: none;
+}
+
+.forms{
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: fit-content;
+    background-color: #FFEDED;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    color: #2E2E2E;
+}
+
+.forms h1{
+    text-align: center;
+    font-family: 'Praise', cursive;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    border: 1px solid #FFC1C1;
+    border-radius: 4px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #FFC1C1;
+    color: #2E2E2E;
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+}
+
+button:hover{
+    border: 1px solid #FF5858;
+    background-color: #FF5858;
+    color: #FFFFFF;
+}
+
+a{
+    color: #2E2E2E;
+}
+
+a:hover{
+    color: #FF5858;
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
